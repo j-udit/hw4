@@ -1,0 +1,32 @@
+body{
+    color: rgb(144, 144, 247);
+    font-size: large; 
+    font-family: sans-serif;
+    margin: 10px;
+    background: repeating-linear-gradient(45deg, rgb(250, 218, 248), rgb(234, 217, 186) 12px, white 12px, white 24px);
+}
+header{
+    text-align: center;
+    margin: 25px;
+    background-image: white;
+}
+nav{
+   border:3px dotted rgb(144, 144, 247);
+   border-radius: 15px;
+   text-align: center;
+}
+img{
+    border: 3px dotted;
+    border-radius: 10px;
+    background-color: rgb(224, 208, 246);
+}
+form{
+    border: 5px;
+    border-style: dotted;
+    border-color: rgb(144, 144, 247);
+    margin: 30px;
+    border-radius: 15px;
+}
+h1{
+    text-shadow: .2em .2em .3em silver;
+}

@@ -1,0 +1,46 @@
+body{
+    font-size: large; 
+    font-family: sans-serif;
+    margin: 10px;
+    
+}
+header{
+    background-color: rgb(251, 236, 238);
+    margin: 10px;
+}
+nav{
+    border: 3px dotted rgb(108, 108, 151);
+    border-radius: 15px;
+    margin: 30px;
+    text-align: center;
+}
+h1{
+    color: pink;
+    text-align: center;
+    text-shadow: .2em .2em .3em silver;
+    margin: 10px;
+
+}
+h3{
+    color: rgb(212, 151, 219);
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+}
+img{
+border: 3px dotted;
+border-radius: 3px;
+color: rgb(108, 108, 151);
+margin: 10px;
+}
+
+
+li{
+background-color: rgb(217, 241, 241);
+color: rgb(108, 108, 151);
+margin: 25px;
+}
+footer{
+    border-top: dotted rgb(108, 108, 151);
+    text-align: center;
+}
