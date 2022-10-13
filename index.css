@@ -1,12 +1,14 @@
 body{
     font-size: large; 
     font-family: sans-serif;
-    margin: 10px;
+    margin: 25px;
     
 }
 header{
     background-color: rgb(251, 236, 238);
-    margin: 10px;
+    margin: 20px;
+    padding: 30px;
+
 }
 nav{
     border: 3px dotted rgb(108, 108, 151);
@@ -32,6 +34,7 @@ border: 3px dotted;
 border-radius: 3px;
 color: rgb(108, 108, 151);
 margin: 10px;
+float: left;
 }
 
 
@@ -44,3 +47,30 @@ footer{
     border-top: dotted rgb(108, 108, 151);
     text-align: center;
 }
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+}
+#one{
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+#three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+#four {
+    grid-column: 4;
+    grid-row: 2;
+  }
+#five {
+    grid-column: 2/4;
+    grid-row: 2/4;
+  }
+#six {
+    grid-column: 3;
+    grid-row: 4;
+  }

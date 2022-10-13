@@ -2,6 +2,7 @@ header{
     font-size: large; 
     font-family: sans-serif;
     margin: 30px;
+    padding: 10px;
     background-image: linear-gradient(90deg, rgb(234, 84, 187), rgb(251, 213, 246) 25%, rgb(247, 197, 145));
 }
 nav{
@@ -29,6 +30,7 @@ img{
     border-radius: 15px;
     margin: 50px;
 }
+
 th{
     color: rgb(250, 177, 189);
     margin: 50px;
@@ -37,4 +39,22 @@ th{
 td{
     margin: 50px;
     text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+#one{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+#two{
+    grid-column: 1;
+    grid-row: 2;
+}
+#three{
+    grid-column: 2/3;
+    grid-row: 2;
 }
