@@ -36,7 +36,16 @@ color: rgb(108, 108, 151);
 margin: 10px;
 float: left;
 }
+.link{
+    display: block;
 
+}
+.link:hover, .link:focus{
+    background-color: rgb(243, 189, 233);
+}
+img:hover {
+    transform: rotate(-20deg) scale(1.25);
+  }
 
 li{
 background-color: rgb(217, 241, 241);

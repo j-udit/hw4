@@ -40,6 +40,11 @@ td{
     margin: 50px;
     text-align: center;
 }
+table{
+    border-collapse: separate;
+    border-spacing: 50px 20px;
+    border: none;
+}
 #container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
